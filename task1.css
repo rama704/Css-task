@@ -1,0 +1,23 @@
+p{
+text-align: center;
+font-size: 20px;
+}
+table{
+margin-left:475px;
+}
+.table1{
+margin-top: 150px;
+}
+#right{
+  text-align: right;
+  font-weight: bold;
+  background-color: yellow;
+}
+#ninja{
+  text-align: center;
+  background-color:pink;
+}
+#ninja-c{
+  text-align: center;
+  font-weight: bold;
+}

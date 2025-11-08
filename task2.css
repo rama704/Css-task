@@ -1,0 +1,108 @@
+.form {
+  color:white;
+  border: 1px solid ;   
+  width: 250px;
+  height: 350px;              
+  padding: 20px;              
+  margin: 50px auto;        
+  border-radius: 10px;      
+  background-color: white;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+
+}
+
+h2{
+  color:black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+display: flex;
+margin: 0;
+}
+span{
+  font-size: 10px;
+  color: black;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+opacity: 0.8;
+margin-top: -5px; 
+}
+.input1{
+height: 38px;
+width: 230px;
+}
+
+
+.password-box {
+  position: relative;
+  width: 145px;
+}
+  
+  .password-box input {
+  width: 100%;
+  padding: 10px 80px 10px 10px; 
+  font-size: 16;
+
+
+}
+.show-btn {
+  right: -80px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: blue;
+  font-size: 10px;
+  position: absolute;
+   
+}
+.forgot{
+text-decoration: none;
+}
+.button1{
+  border: 1px solid blue;
+  padding: 20px;
+  width:230px;
+  height: 25px;
+  text-align:center;
+ margin-top: 20px;
+ margin-left: 10px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(79, 79, 243);
+  color: white;
+  border-radius: 50px;
+}
+
+.or{
+display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  color: grey;
+  
+}
+hr{
+  margin-top: 25px;
+}
+.button2{
+  border: 1px solid black;
+  padding: 20px;
+  width:230px;
+  height: 25px;
+  text-align:center;
+ margin-top: 20px;
+ margin-left: 15px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  
+}
+.button2 i {
+  color: black;
+  font-size: 18px; /* حجم الأيقونة */
+  padding-right: 5px;
+
+}
+.button2 .text {
+opacity: 0.6;
+}

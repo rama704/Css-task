@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d4f1;
+}
+
+
+.signup-box {
+  background-color: #8279c4;
+  padding: 40px 35px;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 360px;
+  text-align: center;
+  color: white;
+}
+
+
+.signup-box h2 {
+  margin-bottom: 25px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+/* حقلين الاسم جنب بعض */
+.name-fields {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.name-fields input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 8px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+.checkbox input {
+  accent-color: #5b5399;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #a89fdd;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #958cd2;
+}
+
+
+.login-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #e0e0e0;
+}
+
+.login-text a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.login-text a:hover {
+  color: #d3d0ff;
+}
+
+
+.footer {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #ddd;
+}
